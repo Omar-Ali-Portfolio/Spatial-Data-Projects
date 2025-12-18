@@ -1,0 +1,66 @@
+---
+title: 'Lab 8: Data processing'
+author: "Omar Ali"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library(sf); library(dplyr)
+knitr::opts_knit$set(root.dir = "C:/Users/omarali/R/lab 3-6")
+setwd("C:/Users/omarali/R/lab 3-6")
+```
+
+```{r}
+blocks_sf <- sf::st_read("blocks.shp")
+
+```
+
+```{r}
+colnames(blocks_sf)
+```
+
+```{r}
+head(blocks_sf[, 14:17])
+```
+
+```{r}
+blocks_df <- st_drop_geometry(blocks_sf)
+```
+
+```{r}
+apply(blocks_df[,14:17], 1, max) 
+```
+
+```{r}
+apply(blocks_df[,14:17], 2, max)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+library(nycflights13)
+class(flights)
+```
+
+```{r}
+flights
+```
+
+```{r}
+flights2 <- flights %>% 
+  select(year:day,hour,origin,dest,tailnum,carrier)
+```
+
+
+```{r}
+flights2 <- flights %>% 
+  dplyr::select(year:day,hour,origin,dest,tailnum,carrier)
+```
+
+```{r}
+flights2 <- dplyr::select(flights, year:day,hour,origin,dest,tailnum,carrier)
+```
+

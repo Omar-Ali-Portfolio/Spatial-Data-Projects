@@ -1,5 +1,5 @@
 ---
-title: 'Lab 8: Data processing'
+title: 'Data processing'
 author: "Omar Ali"
 date: "`r Sys.Date()`"
 output: html_document
@@ -63,4 +63,5 @@ flights2 <- flights %>%
 ```{r}
 flights2 <- dplyr::select(flights, year:day,hour,origin,dest,tailnum,carrier)
 ```
+
 

@@ -1,50 +1,72 @@
-# Omar Spatial & Statistical Data Portfolio
+# Spatial Data Projects
 
-This repository contains statistical and spatial data analysis work completed
-using R and spatial statistics tools as part of GIS and data analysis coursework.
+This repository contains spatial and statistical data analysis work completed
+using R, RStudio, and spatial statistics tools. The projects focus on applying
+statistical methods to spatial and non-spatial datasets and clearly documenting
+analytical results.
 
-The focus of this repository is on applying, interpreting, and communicating
-statistical methods commonly used in spatial and geographic analysis.
+The work is organized to separate analysis code from finalized reports for
+clarity and readability.
 
 ---
 
-## Topics Covered
+## Repository Structure
 
-The reports in this repository cover:
+### R-RStudio
+This folder contains R and R Markdown files used for data processing, exploratory
+analysis, statistical testing, and basic spatial operations.
 
+Typical tasks include:
+- Data cleaning and transformation
+- Exploratory data analysis (EDA)
+- Statistical testing and modeling
+- Plotting and visualization
+- Introductory spatial operations
+
+Files may include both `.Rmd` source files and exported PDF outputs.
+
+---
+
+### Spatial-Data-Reports
+This folder contains finalized PDF reports documenting statistical and spatial
+analysis projects. Each report presents the analytical workflow, results, and
+interpretation.
+
+Topics covered include:
 - Probability distributions
 - Sampling techniques
 - Confidence intervals
 - Hypothesis testing
-- Correlation analysis
-- Linear regression
+- Correlation and regression
 - Analysis of variance (ANOVA)
-- Spatial autocorrelation using GeoDa
-
-Each PDF documents the analysis, results, and interpretation.
+- Spatial autocorrelation (GeoDa)
 
 ---
 
-## Tools Used
+## Tools & Technologies
 
-- R (statistical analysis)
-- GeoDa (spatial autocorrelation)
-- Statistical methods for spatial and non-spatial data
-- Data interpretation and reporting
+- R
+- RStudio
+- GeoDa
+- Statistical and spatial analysis methods
+- Data visualization and reporting
 
 ---
 
 ## Notes
 
-- Work is presented as PDF reports rather than raw scripts
-- Some analyses integrate spatial and non-spatial statistical methods
-- Emphasis is on analytical reasoning and result interpretation
+- Emphasis is placed on analytical reasoning and interpretation
+- Reports are presented as PDFs for clarity and portability
+- Data sources and methods are described within individual files
 
 ---
 
 ## About Me
 
 GIS major with a Computer Science & Engineering minor at The Ohio State University.
-Interested in GIS analytics, spatial statistics, and data-driven decision making.
+Interested in spatial analytics, GIS data analysis, and data-driven decision
+making.
 
-For Python-based analysis and GIS scripting, see my Python Projects repository.
+For scripting and algorithm-based spatial analysis, see my Python Projects
+repository.  
+For spatial databases and SQL workflows, see my SQL/PostGIS Projects repository.
